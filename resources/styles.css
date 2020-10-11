@@ -1,0 +1,34 @@
+.background {
+  viewport-fill: black;
+}
+
+#dayLabel {
+  x: 65%;
+  y: 35%;
+  fill: white;
+}
+
+#dateLabel {
+  x: 26%;
+  y: 35%;
+  fill: white;
+}
+
+#timeLabel {
+  x: 23%;
+  y: 60%;
+  fill: white;
+}
+
+#hr-heart {
+  x: 35%;
+  y: 75%;
+  fill: white;
+}
+
+#hr {
+  x: 50%;
+  y: 76%;
+  fill: white;
+}
+
