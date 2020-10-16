@@ -3,13 +3,13 @@
 }
 
 #dayLabel {
-  x: 65%;
+  x: 68%;
   y: 35%;
   fill: white;
 }
 
 #dateLabel {
-  x: 26%;
+  x: 29%;
   y: 35%;
   fill: white;
 }
@@ -21,13 +21,13 @@
 }
 
 #hr-heart {
-  x: 35%;
+  x: 37%;
   y: 75%;
-  fill: white;
+  fill: red;
 }
 
 #hr {
-  x: 50%;
+  x: 52%;
   y: 76%;
   fill: white;
 }

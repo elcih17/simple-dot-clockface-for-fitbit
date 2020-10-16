@@ -3,6 +3,7 @@ import { me } from "appbit";
 import { preferences } from "user-settings";
 import { display } from "display";
 import { HeartRate } from "./heartrate";
+import { zeroPad } from "../common/utils";
 
 import { FitFont } from "fitfont";
 
@@ -57,7 +58,7 @@ const updateClock = () => {
     hours = hours % 12 || 12;
   }
   const minutes = now.getMinutes();
-  timeLabel.text = hours + ":" + ("0" + minutes).slice(-2);
+  timeLabel.text = zeroPad(hours) + ":" + zeroPad(minutes);
 };
 
 const HR = new HeartRate();
