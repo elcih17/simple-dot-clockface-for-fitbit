@@ -24,7 +24,7 @@ const timeLabel = new FitFont({
 
 const days = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"];
 const months = [
-  "JAN ",
+  "JAN",
   "FEB",
   "MAR",
   "APR",
