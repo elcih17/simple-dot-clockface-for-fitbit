@@ -27,10 +27,10 @@
     <use href="#fitfont-char"/>
     <!-- add as many characters as needed -->
   </use>
-  <use href="#fitfont" id="hr-heart">
+  <use href="#fitfont" id="hrHeart">
     <use href="#fitfont-char"/>
   </use>
-  <use href="#fitfont" id="hr">
+  <use href="#fitfont" id="hrLabel">
     <use href="#fitfont-char"/>
     <use href="#fitfont-char"/>
     <use href="#fitfont-char"/>

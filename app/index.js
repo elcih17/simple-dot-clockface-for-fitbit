@@ -77,8 +77,10 @@ if (display.aodAvailable && me.permissions.granted("access_aod")) {
   });
 }
 
+clock.granularity = "seconds";
 clock.ontick = (evt) => {
   updateClock();
 };
 
 updateClock();
+if (HR) HR.start();

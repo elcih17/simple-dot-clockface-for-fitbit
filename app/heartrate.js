@@ -6,11 +6,11 @@ import { display } from "display";
 import { FitFont } from "fitfont";
 
 const hrHeart = new FitFont({
-  id: "hr-heart",
+  id: "hrHeart",
   font: "PixelMplus10_40",
 });
-const hr = new FitFont({
-  id: "hr",
+const hrLabel = new FitFont({
+  id: "hrLabel",
   font: "PixelMplus10_40",
 });
 
@@ -19,7 +19,7 @@ export class HeartRate {
     if (HeartRateSensor && me.permissions.granted("access_heart_rate")) {
       this.hrm = new HeartRateSensor({ frequency: 1 });
       this.hrm.addEventListener("reading", () => {
-        hr.text = this.hrm.heartRate;
+        hrLabel.text = this.hrm.heartRate;
       });
     }
   }

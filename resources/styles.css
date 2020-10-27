@@ -20,13 +20,13 @@
   fill: white;
 }
 
-#hr-heart {
+#hrHeart {
   x: 37%;
   y: 75%;
   fill: red;
 }
 
-#hr {
+#hrLabel {
   x: 52%;
   y: 76%;
   fill: white;
